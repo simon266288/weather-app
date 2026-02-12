@@ -10,8 +10,12 @@ node_modules/
 dist/
 build/
 
-# Test results
+# Test files
 test-results/
+test-*.py
+test-*.mjs
+*_test.py
+*_test.mjs
 
 # Images
 *.png
@@ -19,6 +23,13 @@ test-results/
 *.jpeg
 *.gif
 *.svg
+
+# Design documents
+UI_PROMPT.md
+
+# Rule documents
+AGENTS.md
+CLAUDE.md
 
 # OS files
 .DS_Store
